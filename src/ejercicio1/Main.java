@@ -8,7 +8,7 @@ public class Main {
 
 		hora.establecerHora(10, 14, 50);
 		hora.imprimir();
-		hora.adelantarHora(1, 22, 4);
+		hora.adelantarHora(1, 1, 1);
 		hora.imprimir();
 		hora.reiniciar();
 		hora.imprimir();
