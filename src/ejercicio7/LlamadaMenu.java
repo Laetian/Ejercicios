@@ -43,6 +43,7 @@ public class LlamadaMenu {
 				break;
 			case 2:
 				System.out.println("Añada el nombre del alumno");
+				sc.nextLine();
 				nombre=sc.nextLine();
 				ficha.eliminar(nombre);
 				break;

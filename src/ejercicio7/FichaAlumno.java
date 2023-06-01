@@ -19,9 +19,12 @@ public class FichaAlumno {
 	}
 
 	public void eliminar(String nombre) {
-		for (int i = 0; i < alumnos.size() + 1; i++) {
-			if (nombre.equalsIgnoreCase(alumnos.get(i).getNombre()))
+
+		for (int i = 0; i <alumnos.size(); i++) {
+			if (nombre.equalsIgnoreCase(alumnos.get(i).getNombre())) {
 				alumnos.remove(i);
+				i--;
+			}
 		}
 	}
 
